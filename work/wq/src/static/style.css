@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.commodityDiv{
+    display: flex;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.commodityDiv > .commodityList{
+    display: flex;
+    padding: 22px 14px;
+}
+
+.commodityDiv > .commodityList > .commodityMsg{
+    margin-left: 10px;
+}
+
+.commodityDiv > .commodityList > .commodityMsg > commodityTit{
+    font-size: 10px;
+    padding: 0 10px 0 0;
+}
+
+.commodityDiv > .commodityList > .commodityMsg > .commodityPrice{
+    margin: 12px 0;
+}
+
+.commodityDiv > .commodityList > .commodityMsg > .commodityPrice > .commodityCurrentPrice{
+    color: #d25d32;
+}
+
+.commodityDiv > .commodityList > .commodityMsg > .commodityPrice > .commodityOriginalPrice{
+    color: #858585;
+    font-style: normal;
+    text-decoration : line-through; 
+}
+
+.commodityDiv > .commodityList > .commodityMsg > .detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.commodityDiv > .commodityList > .commodityMsg > .detail > .detailSpan{
+    font-size: 12px;
+}

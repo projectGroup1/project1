@@ -1,0 +1,13 @@
+*{margin: 0;padding: 0;list-style-type: none;}
+.box{width: 348px;margin: 20% auto;text-align: right;line-height: 40px;}
+.sel{margin-right: 56px;}
+.btn{text-align: center;outline: none;}
+.bg{
+    background: #f60;
+    color:#fff;
+    width: 200px;
+    border:none;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
